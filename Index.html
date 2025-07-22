@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>沃爾希財富商行</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 導覽列 -->
+  <nav>
+    <a href="#">首頁</a>
+    <a href="#">財經電子報</a>
+    <a href="#">圖表分析</a>
+    <a href="#">關於我們</a>
+  </nav>
+
+  <!-- logo + 電子報標題 -->
+  <div style="display: flex; align-items: center; gap: 16px; margin: 40px 0;">
+    <a href="analysis.html" target="_blank" title="前往圖表分析頁面">
+      <img src="logo-walshi.png" alt="沃爾希財富商行 Logo" style="height: 60px;" />
+    </a>
+    <h1 style="font-size: 1.8rem; font-weight: 600; margin: 0; color: #000000;">
+      沃爾希總經電子報
+    </h1>
+  </div>
+
+  <!-- 主視覺區塊 -->
+  <div class="gradient-bg">
+    <h2>專注房市、總經、股市的洞見觀點</h2>
+    <a href="subscribe.html" class="btn">立即訂閱</a>
+  </div>
+
+  <!-- 頁尾 -->
+  <footer>
+    <p>© 2025 沃爾希財富商行｜統編 93397738</p>
+  </footer>
+</body>
+</html>
+/* 背景改卡其色，所有字體為黑色 */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  background-color: #d8c6a5; /* 卡其色 */
+  color: #000000; /* 黑色字體 */
+}
+
+nav {
+  background-color: #ffffff;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.gradient-bg {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #e4d6b9, #d2c4a2); /* 柔和卡其漸層 */
+  color: #000000;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #fff;
+  color: #000000;
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+}
